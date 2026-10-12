@@ -24,43 +24,43 @@
   "versions": [
     {
       "version": "0.1.1",
-      "releasedAt": "2026-10-12 21:30:04.329Z",
+      "releasedAt": "2026-10-12 23:00:00.329Z",
       "releaseNotes": "AES-128-ECB encryption/decryption plugin based on the DBX platform, compatible with Hutool's default AES configuration.",
       "artifacts": [
         {
           "target": "darwin-arm64",
           "url": "https://github.com/IceFoxs/dbx-plugin-aes-tools/releases/download/v0.1.1/io.github.icefoxs.aes-tools-0.1.1-darwin-arm64.dbxp",
-          "sha256": "377cc6b6ba55cac92451bb3c45521a9c6a091defd2958a10c8f6228e451b2edd",
+          "sha256": "780ed8bb09d56198434b012e340cd15247eb8fe8776000315e0f366cc789e122",
           "signingKeyId": "dbx-store-release-2026",
-          "size": 1179843
+          "size": 1179922
         },
         {
           "target": "darwin-x64",
           "url": "https://github.com/IceFoxs/dbx-plugin-aes-tools/releases/download/v0.1.1/io.github.icefoxs.aes-tools-0.1.1-darwin-x64.dbxp",
-          "sha256": "3da7a45acfbad8e0306060faf29cf5072b3745162e7485b5d0a36bd082971fd2",
+          "sha256": "7c1a55c7ccb41d9dc53954f882d84d164a1b0d9c1a42d2b8db983cf61ffa48b1",
           "signingKeyId": "dbx-store-release-2026",
-          "size": 1254316
+          "size": 1254308
         },
         {
           "target": "linux-arm64",
           "url": "https://github.com/IceFoxs/dbx-plugin-aes-tools/releases/download/v0.1.1/io.github.icefoxs.aes-tools-0.1.1-linux-arm64.dbxp",
-          "sha256": "3ba3ba2eb6bff29990bbb0f70f9abefad3dcf0c6cc6f14f4103326292124d9ac",
+          "sha256": "887e12ffb4b8f9b0b67fbc251cbb69b57db57ada77ce407e2d03618381a9327b",
           "signingKeyId": "dbx-store-release-2026",
-          "size": 1257863
+          "size": 1257986
         },
         {
           "target": "linux-x64",
           "url": "https://github.com/IceFoxs/dbx-plugin-aes-tools/releases/download/v0.1.1/io.github.icefoxs.aes-tools-0.1.1-linux-x64.dbxp",
-          "sha256": "a363919810083556e4fb33dda0d2b1fecac9f1173a02dcb992856d13dab353d4",
+          "sha256": "51ec5e52295cc228e41cda48313aa9ab27afe847470c631f5c649d62256eb69c",
           "signingKeyId": "dbx-store-release-2026",
-          "size": 1320575
+          "size": 1320598
         },
         {
           "target": "windows-x64",
           "url": "https://github.com/IceFoxs/dbx-plugin-aes-tools/releases/download/v0.1.1/io.github.icefoxs.aes-tools-0.1.1-windows-x64.dbxp",
-          "sha256": "a0b4d1d1e3aeb524fb86bd6e6f6a6131df185ba9a61c1e33a3fdfe34f3cd8c12",
+          "sha256": "7649d5d26dd6baf7c27c8485e7516574bdc4602bae5913d89b276ccb2ad364cb",
           "signingKeyId": "dbx-store-release-2026",
-          "size": 1209306
+          "size": 1209319
         }
       ]
     }
