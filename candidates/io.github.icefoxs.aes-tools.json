@@ -24,7 +24,7 @@
   "versions": [
     {
       "version": "0.1.1",
-      "releasedAt": "2026-10-21:11:04.329Z",
+      "releasedAt": "2026-10-12 21:30:04.329Z",
       "releaseNotes": "AES-128-ECB encryption/decryption plugin based on the DBX platform, compatible with Hutool's default AES configuration.",
       "artifacts": [
         {
