@@ -147,6 +147,36 @@
       "autoUpdate": true
     },
     {
+      "repository": "lukelwai/dbx-todo",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "ma123456mai/dbx-cc-switch-plugin",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "Ezreal-byte/dbx-docker-plugin",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "Ezreal-byte/dbx-plugin-xxl-job-console",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "Ezreal-byte/dbx-rocketmq-dashboard",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "ma123456mai/ai-config-importer",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
       "repository": "IceFoxs/dbx-plugin-aes-tools",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true

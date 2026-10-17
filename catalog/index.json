@@ -8,6 +8,158 @@
   },
   "plugins": [
     {
+      "id": "cc-switch",
+      "name": "AI Config Importer",
+      "description": "Import AI provider configurations from CC-SWITCH or Magpie into DBX.",
+      "publisher": "ma123456mai",
+      "verified": false,
+      "icon": "https://dl.dbxio.com/plugins/cc-switch/0.2.10/icon.png",
+      "tags": [
+        "ai",
+        "configuration",
+        "cc-switch"
+      ],
+      "permissions": [],
+      "source": "https://github.com/ma123456mai/ai-config-importer/tree/v0.2.10",
+      "homepage": "https://github.com/ma123456mai/ai-config-importer",
+      "license": "Apache-2.0",
+      "latestVersion": "0.2.10",
+      "versions": [
+        {
+          "version": "0.2.10",
+          "releasedAt": "2026-10-17T02:18:15.050Z",
+          "releaseNotes": "Hide source entries hidden in CC-SWITCH and Magpie. Import Magpie's live Codex model catalog with distinct model labels.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.2.10/cc-switch-0.2.10-darwin-arm64.dbxp",
+              "sha256": "332ce58d5e64f83716c29f56317b9b25c9cff486f18ac79559fd0bea251d76b7",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1439787
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.2.10/cc-switch-0.2.10-darwin-x64.dbxp",
+              "sha256": "5dbb442b2f44160be7598262e765b831d7d4469b1983876df5935a9e14e1c071",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1516508
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.2.10/cc-switch-0.2.10-linux-arm64.dbxp",
+              "sha256": "4009478782b46d62fe3f80e9d9f57162c1fcd517d81840a144579ab676d1b931",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1578850
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.2.10/cc-switch-0.2.10-linux-x64.dbxp",
+              "sha256": "1d8d0bf4711e4f71eafa82960bcb961991f3f934714cfe24f63c636b35a88ba3",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1617317
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.2.10/cc-switch-0.2.10-windows-x64.dbxp",
+              "sha256": "281bdf21efd12ad52ed881a53729b4fcc4c097da6334d7e60bd54c1cb0f42aba",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1417929
+            }
+          ]
+        },
+        {
+          "version": "0.1.5",
+          "releasedAt": "2026-10-16T09:39:19.812Z",
+          "releaseNotes": "Hide source entries hidden in CC-SWITCH and Magpie. Import Magpie's live Codex model catalog with distinct model labels.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-darwin-arm64.dbxp",
+              "sha256": "7508239aac18c5c0784dc7f96a9032ea25c9c650b20314b43a81b688e30f04da",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1439679
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-darwin-x64.dbxp",
+              "sha256": "d96484b1a750a3ef0a23f9bcf9b06bab85b1fa14727a193e5ba3c49936290dd5",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1516649
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-linux-arm64.dbxp",
+              "sha256": "c2054f7314329f726336fc928ff664539cf6cc25691e3bcae12703853152f130",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1578960
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-linux-x64.dbxp",
+              "sha256": "d9a6524886dc1f6e55846dad82ffa14b550494bda2d40114da80381931e257a7",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1617315
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.5/cc-switch-0.1.5-windows-x64.dbxp",
+              "sha256": "6029c0e19fce36aece4ee9168c432a81c0884f575eeb0aa911f980e6bd912f93",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1417927
+            }
+          ]
+        },
+        {
+          "version": "0.1.3",
+          "releasedAt": "2026-10-13T08:07:15.457Z",
+          "releaseNotes": "根据维护者反馈补充 CC-SWITCH 官方图标，并注册 DBX Store 自动同步信息。",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-darwin-arm64.dbxp",
+              "sha256": "0f3590bb91f8b7da1668b161b75cf8fafcc7fdf3faae4c24c743a05f73c5fa70",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1306035
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-darwin-x64.dbxp",
+              "sha256": "2695e7b8bc421493b92fac71045985f2b65dc5f1c4cdb1dbc307201ed9e404e7",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1378459
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-linux-arm64.dbxp",
+              "sha256": "6b118575ac9d50791f25e08ceb4bcd5d7a2f7cd351e391e2edfea80415fc8bcb",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1444532
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-linux-x64.dbxp",
+              "sha256": "4120d91931ac644577924012f7e658921b4e6fa5e017f9120f3714f6e7659831",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1479457
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/cc-switch/0.1.3/cc-switch-0.1.3-windows-x64.dbxp",
+              "sha256": "1653ed4d4f38b905077979d5a5f92ed30d7894e962107a0811edeac3d0e92919",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 1269329
+            }
+          ]
+        }
+      ],
+      "localizations": {
+        "zh-CN": {
+          "name": "AI 配置导入",
+          "description": "从 CC-SWITCH 或 Magpie 导入 AI 提供商配置到 DBX。"
+        }
+      }
+    },
+    {
       "id": "ccllzz111.dbx-draw",
       "name": "DBX Draw",
       "description": "The draw.io diagram editor bundled inside the DBX sandbox, with offline editing and mathematical typesetting.",
@@ -60,7 +212,7 @@
       "description": "格式化、压缩、折叠、转义、导入、导出 JSON，左侧工作区树可新建文件夹/JSON 文件。",
       "publisher": "acornlive",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/chatawesome.cn.json-pretty/0.1.3/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/chatawesome.cn.json-pretty/0.1.4/icon.svg",
       "tags": [
         "developer-tools",
         "files",
@@ -74,8 +226,50 @@
       "source": "https://github.com/acornlive/dbx-plugin-json-pretty",
       "homepage": "https://github.com/acornlive/dbx-plugin-json-pretty",
       "license": "MIT",
-      "latestVersion": "0.1.3",
+      "latestVersion": "0.1.4",
       "versions": [
+        {
+          "version": "0.1.4",
+          "releasedAt": "2026-10-13T05:17:42.708Z",
+          "releaseNotes": "大文件虚拟滚动、宿主剪贴板桥接、工作区侧栏文件树可自动保存导入和黏贴的json、支持拖拽文件解析",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/chatawesome.cn.json-pretty/0.1.4/chatawesome.cn.json-pretty-0.1.4-darwin-arm64.dbxp",
+              "sha256": "21b662815dbcae277ac037baa467e2393087a0bfb8212d73f3f1bd88920c39ee",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2024614
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/chatawesome.cn.json-pretty/0.1.4/chatawesome.cn.json-pretty-0.1.4-darwin-x64.dbxp",
+              "sha256": "274af12df500b1679288d24f3bccd2892d314a22f6577fc5cea7c35a745d1c75",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2115431
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/chatawesome.cn.json-pretty/0.1.4/chatawesome.cn.json-pretty-0.1.4-linux-arm64.dbxp",
+              "sha256": "ea5d8795467b3fad0fae2951173bce85f857d9a94d1766d3d2a02fcab1a69877",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2045125
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/chatawesome.cn.json-pretty/0.1.4/chatawesome.cn.json-pretty-0.1.4-linux-x64.dbxp",
+              "sha256": "d56e23445d807a27f4249c817b92465243aa3996d2ffe4f20f81c4dee915434d",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2167983
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/chatawesome.cn.json-pretty/0.1.4/chatawesome.cn.json-pretty-0.1.4-windows-x64.dbxp",
+              "sha256": "75c3c1fc4da8367d8a7b19a4fe21aaea2fcfbb059bb5f8f70b0a56c154397279",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2217902
+            }
+          ]
+        },
         {
           "version": "0.1.3",
           "releasedAt": "2026-09-27T09:13:22.113Z",
@@ -571,7 +765,7 @@
       "description": "Browse, manage and inspect OCI / Harbor container registries from a single workbench: project and namespace navigation, tag rename and delete, per-layer size analysis, Trivy CVE reports, registry-wide charts and multi-arch breakdowns.",
       "publisher": "leavingrain",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.7/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.81/icon.svg",
       "tags": [
         "registry",
         "harbor",
@@ -584,8 +778,106 @@
       "source": "https://github.com/Zer0ON1/dbx-plugin-imrepo",
       "homepage": "https://github.com/Zer0ON1/dbx-plugin-imrepo",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.7",
+      "latestVersion": "0.1.81",
       "versions": [
+        {
+          "version": "0.1.81",
+          "releasedAt": "2026-10-15T02:08:20.796Z",
+          "releaseNotes": "Docker Registry v2 projects (namespaces), registry overview charts, and one badge per architecture in the image views.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.81/com.leavingrain.imrepo-0.1.81-darwin-arm64.dbxp",
+              "sha256": "5626fb8ab7801b9d59df26ce2449d710f86c1c162f4f0d5c302d58d01cd580f9",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4625317
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.81/com.leavingrain.imrepo-0.1.81-darwin-x64.dbxp",
+              "sha256": "cd0ec0b483c3fe6f0ac9b585258c9fdcf52e445ecceb8a01fde294fc858f5413",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4875177
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.81/com.leavingrain.imrepo-0.1.81-linux-arm64.dbxp",
+              "sha256": "665265a959d263ad1223545ca2282395b3ccaf111065f944bc132a135c46bc87",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4579765
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.81/com.leavingrain.imrepo-0.1.81-linux-x64.dbxp",
+              "sha256": "fe96671e75ebc1125dae42fdf51cc8865853cc46cb90e01250684e4b5cf9c8dc",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4910790
+            },
+            {
+              "target": "windows-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.81/com.leavingrain.imrepo-0.1.81-windows-arm64.dbxp",
+              "sha256": "20274881c34b4ded29d7fea0a6a600ccce3783bc8e6bf6aae3e3f8306adfd156",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4587932
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.81/com.leavingrain.imrepo-0.1.81-windows-x64.dbxp",
+              "sha256": "eb188ffed535c9465881bc95750ce91ecb7bfa64c812d7b71a0ccb25f7c01da3",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4947392
+            }
+          ]
+        },
+        {
+          "version": "0.1.8",
+          "releasedAt": "2026-10-15T01:56:21.280Z",
+          "releaseNotes": "Docker Registry v2 projects (namespaces), registry overview charts, and one badge per architecture in the image views.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-darwin-arm64.dbxp",
+              "sha256": "f982448be4a133222a22185f695cab99f59c26076378e471c072606758f4915b",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4612258
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-darwin-x64.dbxp",
+              "sha256": "9400a089d21381591063da52ab2437196b6b27539f11e634d175c7ee18d96fb8",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4859358
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-linux-arm64.dbxp",
+              "sha256": "10a3570948bb7dfcbf3bf6539bbb2b330e85089943df16aef97c6b775f38d2ad",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4565250
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-linux-x64.dbxp",
+              "sha256": "92b7b1ae62ae425f38f58aff061313831ee8e5237435b2504484fd2094e05175",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4894807
+            },
+            {
+              "target": "windows-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-windows-arm64.dbxp",
+              "sha256": "c7db63286833e8a2b718d3f2ac848d3b1a58e0abaaafddd52fad6a0f51b849bf",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4573274
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-windows-x64.dbxp",
+              "sha256": "a415d66e195cc2ed2a08272f39733b63d5835f3410395545fa5a7dd46ed21157",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4934796
+            }
+          ]
+        },
         {
           "version": "0.1.7",
           "releasedAt": "2026-10-08T09:04:12.490Z",
@@ -843,7 +1135,7 @@
       "description": "Markdown 笔记，支持连接类型：在 DBX 中新建「AI.MD 笔记」连接即可打开笔记工作台。笔记落盘到连接配置里的存储目录，并可作为 mdnotes:// 虚拟文件系统浏览编辑。内置 AI 助手（右侧常驻栏），可接入任意 OpenAI 兼容 / Anthropic / Ollama 模型对笔记做分析、润色、续写与问答。",
       "publisher": "lwai",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.6/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.8/icon.svg",
       "tags": [
         "md",
         "notes",
@@ -857,8 +1149,36 @@
       "source": "https://github.com/lukelwai/dbx-md-notes",
       "homepage": "https://github.com/lukelwai/dbx-md-notes",
       "license": "Apache-2.0",
-      "latestVersion": "0.8.6",
+      "latestVersion": "0.8.8",
       "versions": [
+        {
+          "version": "0.8.8",
+          "releasedAt": "2026-10-15T01:45:11.867Z",
+          "releaseNotes": "工具栏瘦身：「插入 SQL 块」和「AI 助手」常驻，导出 / 备份 / 恢复 / 为表新建笔记收进「更多」下拉 —— 窄窗口下不再被挤成两行；点空白处或按 Esc 收起，点任一项执行后自动收起。所有动作的 id 与行为都没变，只是换了位置。",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.8/com.lwai.mdnotes-0.8.8-darwin-arm64.dbxp",
+              "sha256": "a7eb03762ab4b8a5cc48aa82d6c806c2913e15aa39b835f1d4bee33007d9492e",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5218529
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.8/com.lwai.mdnotes-0.8.8-linux-x64.dbxp",
+              "sha256": "f08154969b6e91050dc626bbd4f412e611c6c7f1eef135e8770e89d920205866",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5394939
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.8/com.lwai.mdnotes-0.8.8-windows-x64.dbxp",
+              "sha256": "0cb3907cc2e328894be9f1d241d3714442c97ab960a2564ed771a3d39fda47e3",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5459051
+            }
+          ]
+        },
         {
           "version": "0.8.6",
           "releasedAt": "2026-10-12T07:22:24.322Z",
@@ -937,7 +1257,7 @@
       "description": "轻量待办（Todo）插件：分组管理任务，支持优先级、起止时间、子任务与里程碑、完成度进度条，以及列表 / 日历双视图。",
       "publisher": "lwai",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/com.lwai.todo/0.1.5/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/com.lwai.todo/0.1.8/icon.svg",
       "tags": [
         "todo",
         "task",
@@ -946,11 +1266,39 @@
         "calendar"
       ],
       "permissions": [],
-      "source": "https://github.com/lukelwai/dbx-todo/tree/0.1.5",
+      "source": "https://github.com/lukelwai/dbx-todo/tree/0.1.8",
       "homepage": "https://github.com/lukelwai/dbx-todo",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.5",
+      "latestVersion": "0.1.8",
       "versions": [
+        {
+          "version": "0.1.8",
+          "releasedAt": "2026-10-13T00:40:34.955Z",
+          "releaseNotes": "完善待办功能",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.lwai.todo/0.1.8/com.lwai.todo-0.1.8-darwin-arm64.dbxp",
+              "sha256": "d370177b42bfadd8685ddbbebe79d939b8041a69c9570619dea8557e3e4a4190",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5584239
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/com.lwai.todo/0.1.8/com.lwai.todo-0.1.8-linux-x64.dbxp",
+              "sha256": "b2fe69d353aadc1c7ca61b002b220ec08c28646895474acf6ab6629c614475fc",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5634327
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/com.lwai.todo/0.1.8/com.lwai.todo-0.1.8-windows-x64.dbxp",
+              "sha256": "eedbb80124115ad6a4aa47824a6799c83fdd8d65014d09bcd65febc15b36ed2b",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5704036
+            }
+          ]
+        },
         {
           "version": "0.1.5",
           "releasedAt": "2026-10-10T09:18:26.074Z",
@@ -1840,24 +2188,69 @@
     {
       "id": "io.dbx.docker",
       "name": "Docker",
-      "description": "Docker Engine workbench: containers, images, volumes, networks, logs, monitoring, container files, an interactive container terminal, and a controlled Compose subset.",
+      "description": "Manage Docker containers, images, volumes, networks and Compose, with built-in DBX AI and MCP tools for queries and permission-controlled operations.",
       "publisher": "ezreal-byte",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.dbx.docker/0.1.4/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/io.dbx.docker/0.3.1/icon.svg",
       "tags": [
         "docker",
         "containers",
-        "compose"
+        "compose",
+        "ai",
+        "mcp"
       ],
       "permissions": [
-        "host.workbench",
-        "host.binary"
+        "host.ai",
+        "host.binary",
+        "host.workbench"
       ],
-      "source": "https://github.com/Ezreal-byte/dbx-docker-plugin/tree/v0.1.4",
+      "source": "https://github.com/Ezreal-byte/dbx-docker-plugin/tree/v0.3.1",
       "homepage": "https://github.com/Ezreal-byte/dbx-docker-plugin",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.4",
+      "latestVersion": "0.3.1",
       "versions": [
+        {
+          "version": "0.3.1",
+          "releasedAt": "2026-10-15T02:02:46.942Z",
+          "releaseNotes": "Adds built-in DBX AI Agent and external MCP tools with default-off per-connection permissions; resource details and network/volume management; YAML Compose editing, compact themed tables, file menus/previews and unified transfer tasks; backend preview/confirmation gates for destructive operations. Adds Windows named pipes, optional OS-default local sockets and native Windows pipe paths. Fixes SSH nc/sudo nc MaxSessions exhaustion with shared session limits, cancellable queues, idle expiry and bounded retries before Docker requests. Requires DBX 0.6.43 or newer.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.docker/0.3.1/io.dbx.docker-0.3.1-darwin-arm64.dbxp",
+              "sha256": "52ac921ca0c0e034d92e95197dbda898e9e460768b69763952a89ca6cc36e675",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 7451508
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.docker/0.3.1/io.dbx.docker-0.3.1-darwin-x64.dbxp",
+              "sha256": "3b8e485a5f5753ad0a3ce0110a922b6423c296e25b8bae9b95dd03a74eca7c6c",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 7911124
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.docker/0.3.1/io.dbx.docker-0.3.1-linux-arm64.dbxp",
+              "sha256": "cc91f6289b0ea6f86ba721b9d4ef1c415364271a22ee52cda8bae3b7ecf8da11",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 7198964
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.docker/0.3.1/io.dbx.docker-0.3.1-linux-x64.dbxp",
+              "sha256": "813b246c6bcee764b835830ba081118d95a9441122e9fe2f86442affe3de472a",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 7797264
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.docker/0.3.1/io.dbx.docker-0.3.1-windows-x64.dbxp",
+              "sha256": "1d41d0a9242638261dd4efd3b78691f943726f42365b4aed58a7dc9b158725e8",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 7949554
+            }
+          ]
+        },
         {
           "version": "0.1.4",
           "releasedAt": "2026-09-20T16:10:41.059Z",
@@ -1902,17 +2295,17 @@
         }
       ],
       "localizations": {
-        "zh-CN": {
-          "name": "Docker",
-          "description": "Docker Engine 工作台：管理容器、镜像、卷与网络，实时日志、资源监控、容器文件上传下载、容器内交互式终端，以及常用 Compose 子集的应用。"
-        },
         "en": {
           "name": "Docker",
-          "description": "Docker Engine workbench: containers, images, volumes, networks, logs, monitoring, container files, an interactive container terminal, and a controlled Compose subset."
+          "description": "Manage Docker containers, images, volumes, networks and Compose, with built-in DBX AI and MCP tools for queries and permission-controlled operations."
+        },
+        "zh-CN": {
+          "name": "Docker",
+          "description": "Docker 管理工作台：容器、镜像、卷、网络、日志、文件、监控与 Compose；支持 DBX 内置 AI 和 MCP 查询及按连接授权的管理操作。"
         },
         "zh": {
           "name": "Docker",
-          "description": "Docker Engine 工作台：管理容器、镜像、卷与网络，实时日志、资源监控、容器文件上传下载、容器内交互式终端，以及常用 Compose 子集的应用。"
+          "description": "Docker 管理工作台：容器、镜像、卷、网络、日志、文件、监控与 Compose；支持 DBX 内置 AI 和 MCP 查询及按连接授权的管理操作。"
         }
       }
     },
@@ -2207,7 +2600,7 @@
       "description": "A unified file workspace for local folders, S3-compatible storage, Azure Blob, Google Cloud Storage, Huawei OBS, WebDAV, FTP, SFTP, SMB/CIFS, and other OpenDAL services.",
       "publisher": "jinpy",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.88/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.90/icon.svg",
       "tags": [
         "files",
         "storage",
@@ -2224,8 +2617,92 @@
       "source": "https://github.com/jinpy666/dbx-plugin-files",
       "homepage": "https://github.com/jinpy666/dbx-plugin-files",
       "license": "MIT",
-      "latestVersion": "0.1.88",
+      "latestVersion": "0.1.90",
       "versions": [
+        {
+          "version": "0.1.90",
+          "releasedAt": "2026-10-13T05:05:57.734Z",
+          "releaseNotes": "新增工具栏「上传文件夹」：走 webview 原生 webkitdirectory 选择器（web/docker 与桌面宿主同一路径），按相对路径还原目录结构落到 目标/<文件夹名>/；先建远端目录树（目录已存在=合并），再逐文件走统一上传泵；同名冲突策略按子目录分组生效（询问档带目录前缀、自动重命名在目录内让位）。目录结构与落盘内容均有集成测试覆盖。New toolbar action \"Upload folder\": a webview-native webkitdirectory picker (same path on web/docker and desktop hosts) that restores the directory structure under target/<folder>/, creates the remote directory tree first (existing dirs merge), then streams every file through the unified upload pump; the conflict policy applies per subdirectory (ask shows dir-prefixed names, rename de-dupes within each directory).",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.90/io.dbx.files-0.1.90-darwin-arm64.dbxp",
+              "sha256": "2653c77ab5166b5ed026735fdd0ded976265c9b9477de9e0056e4eb676fff6c0",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 39747540
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.90/io.dbx.files-0.1.90-darwin-x64.dbxp",
+              "sha256": "7ef5ba705d4b268b5fc712b695784d21df1faf027cf459cdcad951181a3a8862",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 42250605
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.90/io.dbx.files-0.1.90-linux-arm64.dbxp",
+              "sha256": "ef2f00ada3e7c50f24e1b732ebf07e9d64fb8d070a881aa977da70516d0bad2f",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 36129267
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.90/io.dbx.files-0.1.90-linux-x64.dbxp",
+              "sha256": "801bfba7533057bdfa1df31f37849bf2b71a2b8f1f9025be2b8c21281d40ecca",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 39057737
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.90/io.dbx.files-0.1.90-windows-x64.dbxp",
+              "sha256": "a5222dc2353ed8b00bc518e138e3f9dc642e02d155bbb011d5bd7dee3eead243",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 38411183
+            }
+          ]
+        },
+        {
+          "version": "0.1.89",
+          "releasedAt": "2026-10-13T00:52:36.618Z",
+          "releaseNotes": "新增工具栏「上传文件夹」：走 webview 原生 webkitdirectory 选择器（web/docker 与桌面宿主同一路径），按相对路径还原目录结构落到 目标/<文件夹名>/；先建远端目录树（目录已存在=合并），再逐文件走统一上传泵；同名冲突策略按子目录分组生效（询问档带目录前缀、自动重命名在目录内让位）。目录结构与落盘内容均有集成测试覆盖。New toolbar action \"Upload folder\": a webview-native webkitdirectory picker (same path on web/docker and desktop hosts) that restores the directory structure under target/<folder>/, creates the remote directory tree first (existing dirs merge), then streams every file through the unified upload pump; the conflict policy applies per subdirectory (ask shows dir-prefixed names, rename de-dupes within each directory).",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.89/io.dbx.files-0.1.89-darwin-arm64.dbxp",
+              "sha256": "a71be1d575731b3d47397120397f0ab238658ec3796cca547e8292d27b44b233",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 39687576
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.89/io.dbx.files-0.1.89-darwin-x64.dbxp",
+              "sha256": "1bae591b428d4b588e03ac001bce32b5a09b0c8382263dc9feb25070946d479a",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 42189306
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.89/io.dbx.files-0.1.89-linux-arm64.dbxp",
+              "sha256": "7c81063d2370c8165d1ae063c4af312d8946cfdf2c6092ce9272341efd340132",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 36063472
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.89/io.dbx.files-0.1.89-linux-x64.dbxp",
+              "sha256": "65a09aee73faea522902a383e9b1970fb836fe434b86c760800364eed88f5e52",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 38993648
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.files/0.1.89/io.dbx.files-0.1.89-windows-x64.dbxp",
+              "sha256": "580c4c2cf850e6038811a828a33518a0a4f7cc2ff72be60c13e091016deeec6b",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 38350139
+            }
+          ]
+        },
         {
           "version": "0.1.88",
           "releasedAt": "2026-10-04T15:33:54.551Z",
@@ -2912,7 +3389,7 @@
       "description": "Manage Kubernetes clusters, workloads and resources from DBX.",
       "publisher": "eryajf",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.11/icon.png",
+      "icon": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.30/icon.png",
       "tags": [
         "kubernetes",
         "containers",
@@ -2926,8 +3403,57 @@
       "source": "https://github.com/eryajf/dbx-plugin-k8s/tree/82240b2d6d32c8fb8890a2a0415630a466d0faef",
       "homepage": "https://github.com/eryajf/dbx-plugin-k8s",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.11",
+      "latestVersion": "0.1.30",
       "versions": [
+        {
+          "version": "0.1.30",
+          "releasedAt": "2026-10-17T02:02:28.875Z",
+          "releaseNotes": "",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.30/io.dbx.k8s-0.1.30-darwin-arm64.dbxp",
+              "sha256": "354f2e0d831044b29043ba6d00e53ef20013fd0b76da8f206b64df4b006bca07",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 32371237
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.30/io.dbx.k8s-0.1.30-darwin-x64.dbxp",
+              "sha256": "55957f664b91d3bcaf2b1aa2ce9f4b3bc413bfcfa8e01a7e89a771585b64bd98",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 33962693
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.30/io.dbx.k8s-0.1.30-linux-arm64.dbxp",
+              "sha256": "6db8a89234c71875e0105c05e640221556298e338b9db6eda9cd4597556c2bc6",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 30528102
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.30/io.dbx.k8s-0.1.30-linux-x64.dbxp",
+              "sha256": "8b3c9711041544b624e81a109662bd675932ad1c3cda04ea05c1dc4c9581c8b0",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 32580812
+            },
+            {
+              "target": "windows-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.30/io.dbx.k8s-0.1.30-windows-arm64.dbxp",
+              "sha256": "62e119f4c6825cca94c5225c10f9ca823b70803d67a6f164600e2148368865e8",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 30598124
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.k8s/0.1.30/io.dbx.k8s-0.1.30-windows-x64.dbxp",
+              "sha256": "6478caf9916f15d44acc15296a88311388dd26af2ddb4463abbfef4bb7335b0c",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 32896905
+            }
+          ]
+        },
         {
           "version": "0.1.11",
           "releasedAt": "2026-10-12T00:52:00.360Z",
@@ -4606,6 +5132,78 @@
       }
     },
     {
+      "id": "io.dbx.lolping.lite",
+      "name": "lolPing Lite",
+      "description": "Native desktop ping and emote wheels with low memory use, local sound, offline packs and DBX-integrated settings.",
+      "publisher": "ezreal-byte",
+      "verified": false,
+      "icon": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.2.1/icon.png",
+      "tags": [
+        "pings",
+        "emotes",
+        "desktop",
+        "lolping"
+      ],
+      "permissions": [
+        "host.events",
+        "host.binary"
+      ],
+      "source": "https://github.com/Ezreal-byte/dbx-lolping-plugin/tree/v0.2.1",
+      "homepage": "https://github.com/Ezreal-byte/dbx-lolping-plugin",
+      "license": "MIT",
+      "latestVersion": "0.2.1",
+      "versions": [
+        {
+          "version": "0.2.1",
+          "releasedAt": "2026-10-17T02:12:38.796Z",
+          "releaseNotes": "Replace overlay WebViews with native Rust rendering. Bound scene buffers, image caches and streamed animation frames; decode audio off the input/render thread. Windows single-desktop samples were 39–52 MiB for the plugin process tree (excluding DBX and settings UI; not a worst-case guarantee). Preserve upstream C++ gestures and pause/capture behavior. Fix Windows gray overlay frames, improve wheel text with Inter, add a GitHub Release download button for the optional emote ZIP, and use the yellow question-mark icon. Existing settings/assets remain compatible. Riot game assets are excluded from the MIT code license.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.2.1/io.dbx.lolping.lite-0.2.1-darwin-arm64.dbxp",
+              "sha256": "7780608f9dc52f160350dc3ab5a21966608456318966a3b910eed127a0768d04",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 18761036
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.2.1/io.dbx.lolping.lite-0.2.1-windows-x64.dbxp",
+              "sha256": "78cedb65a6a0a43ba2e9724a93ed27b6c353561652cb02b2e589826710122d98",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 18888773
+            }
+          ]
+        },
+        {
+          "version": "0.1.0",
+          "releasedAt": "2026-10-16T10:38:43.566Z",
+          "releaseNotes": "Initial release. Local desktop pings, emotes and settings; no rooms or network synchronization. Rust/WebView sidecar and the upstream C++ input helper replace Electron. Code is MIT licensed; Riot game assets and the upstream icon are excluded from that license.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.1.0/io.dbx.lolping.lite-0.1.0-darwin-arm64.dbxp",
+              "sha256": "a164fcfc29b5bbaeb59601e762980956c00cc434b570d6c6eac15ac2b7ef2359",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 18273763
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.1.0/io.dbx.lolping.lite-0.1.0-windows-x64.dbxp",
+              "sha256": "f65d7084481a70adde9279f093541117f9b1304e42332f3f00ba2f0fc60fe9f1",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 18349450
+            }
+          ]
+        }
+      ],
+      "localizations": {
+        "zh-CN": {
+          "name": "lolPing 轻量版",
+          "description": "低内存原生桌面信号与表情轮盘，支持本地音效、离线扩展包和 DBX 内设置。"
+        }
+      }
+    },
+    {
       "id": "io.dbx.nintyapi",
       "name": "NintyAPI",
       "description": "在 DBX 里调试 HTTP 接口：接口集合树、完整请求历史（参数与响应一并留存）、文件上传（form-data 多文件、拖拽或选择文件、分片流式发送）、cURL 互转、代码生成，分栏可拖拽，剪贴板与右键菜单都可用。",
@@ -4996,7 +5594,7 @@
       "description": "A secure terminal for interactive sessions, SFTP file transfer, remote commands, and guarded server operations.",
       "publisher": "jinpy",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.dbx.ssh/0.7.5/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/io.dbx.ssh/0.7.6/icon.svg",
       "tags": [
         "ssh",
         "terminal",
@@ -5015,8 +5613,50 @@
       "source": "https://github.com/jinpy666/dbx-plugin-ssh",
       "homepage": "https://github.com/jinpy666/dbx-plugin-ssh",
       "license": "MIT",
-      "latestVersion": "0.7.5",
+      "latestVersion": "0.7.6",
       "versions": [
+        {
+          "version": "0.7.6",
+          "releasedAt": "2026-10-13T00:46:40.262Z",
+          "releaseNotes": "First official store release: interactive terminal with PTY, SFTP file transfer, remote command execution, sudo with approval guards, host key management, and multi-language UI.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.ssh/0.7.6/io.dbx.ssh-0.7.6-darwin-arm64.dbxp",
+              "sha256": "20095c7d531f0c92b9a4465284385620440bbd65b6676d9b5741127c31ccac0d",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 15598020
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.ssh/0.7.6/io.dbx.ssh-0.7.6-darwin-x64.dbxp",
+              "sha256": "178070daff4268388b992e6bcab6272f61501a8578212a14b40ab8ca72bcb55f",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 16259184
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.ssh/0.7.6/io.dbx.ssh-0.7.6-linux-arm64.dbxp",
+              "sha256": "edef6f6ed62543ec3f97dd34834c24d2e6ae4a4ea61137108226f75bc4920c6d",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 16825125
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.ssh/0.7.6/io.dbx.ssh-0.7.6-linux-x64.dbxp",
+              "sha256": "61bf04892fc322546887f5ea5366fdba76a132d0391ad9ca169b312e11dfaada",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 17304158
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.ssh/0.7.6/io.dbx.ssh-0.7.6-windows-x64.dbxp",
+              "sha256": "4ae4b1b9c0557de8e6782b501d2d908bf0b078fef0cbec0a43051d9179dbc72c",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 15062663
+            }
+          ]
+        },
         {
           "version": "0.7.5",
           "releasedAt": "2026-10-07T16:34:09.329Z",
@@ -5662,23 +6302,124 @@
     {
       "id": "io.dbx.xxljob-console",
       "name": "XXL-JOB Console",
-      "description": "Manage XXL-JOB reports, jobs, logs, executors and users in DBX.",
+      "description": "Manage XXL-JOB tasks, logs and executors with DBX built-in AI and MCP, scoped permissions and confirmed operation previews.",
       "publisher": "ezreal-byte",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.3.2/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.4.0/icon.svg",
       "tags": [
         "xxl-job",
         "scheduler",
-        "jobs"
+        "jobs",
+        "ai",
+        "mcp"
       ],
       "permissions": [
+        "host.ai",
         "host.workbench"
       ],
-      "source": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/tree/v0.3.2",
+      "source": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console",
       "homepage": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console",
       "license": "MIT",
-      "latestVersion": "0.3.2",
+      "latestVersion": "0.4.0",
       "versions": [
+        {
+          "version": "0.4.0",
+          "releasedAt": "2026-10-17T02:07:22.662Z",
+          "releaseNotes": "0.4.0 adds 22 tools for DBX built-in Agent and external MCP, default-off per-connection permissions, grouped and individual tool controls, and call history. Task and executor writes share expiring one-use previews, confirmation, conflict detection and read-only/account checks. Add task details, contextual AI entry points, bounded logs, saved/override run parameters, loading states and unknown-result handling. Requires DBX 0.6.43+ and Host API ^1.4.0; preserves existing connection identities and Admin 2.3.x/3.4.x profiles, including the 0.3.3 required executor filter fix.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.4.0/io.dbx.xxljob-console-0.4.0-darwin-arm64.dbxp",
+              "sha256": "60633bc98ba75429bfbe3b74e658bfcf639569d5a7bafc7768c1675bded21d4b",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4974728
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.4.0/io.dbx.xxljob-console-0.4.0-darwin-x64.dbxp",
+              "sha256": "3b2927ff1c9296e257ed561f25e02f6bca0ae317fa814a812c75bf1ab4e0e4fd",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5209902
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.4.0/io.dbx.xxljob-console-0.4.0-linux-arm64.dbxp",
+              "sha256": "6a1d905b0020ed85ffbec0efb2be7dd552f53b9cb3a99dabeab954f3c9802809",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4993706
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.4.0/io.dbx.xxljob-console-0.4.0-linux-x64.dbxp",
+              "sha256": "d24d8d8d90e3f013c22271ccb661034ec262b4f54600788c54e6dcbbe31ae8b6",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5310101
+            },
+            {
+              "target": "windows-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.4.0/io.dbx.xxljob-console-0.4.0-windows-arm64.dbxp",
+              "sha256": "2094d13b14a4f0de5f96a741979ddb26c2ab8a74383be2b78cae66e8b049a949",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5083179
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.4.0/io.dbx.xxljob-console-0.4.0-windows-x64.dbxp",
+              "sha256": "39d30611d9593f9bd95845e618c88960c87dd8a9f0b463faefcbe977117fa032",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5442166
+            }
+          ]
+        },
+        {
+          "version": "0.3.3",
+          "releasedAt": "2026-10-15T02:02:46.950Z",
+          "releaseNotes": "Fix HTTP 400 when listing executors on Admin 3.1.0 by sending required empty appname/title filters. Preserve unfiltered results, permission checks and both existing API profiles; this query fix does not establish full Admin 3.2.0 SSO compatibility. Emit plugin + artifacts release metadata for DBX Store scanning and add Windows/Linux CI with native package handshake checks.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.3.3/io.dbx.xxljob-console-0.3.3-darwin-arm64.dbxp",
+              "sha256": "7396dcb24f17d2896193377cd25154a99e584267cbb0f5b24a130d91c7fe96ac",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4635989
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.3.3/io.dbx.xxljob-console-0.3.3-darwin-x64.dbxp",
+              "sha256": "08dc4ac9716c52c793185ba1921715fb160d2d6a967114a58dda96912377d7e1",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4848015
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.3.3/io.dbx.xxljob-console-0.3.3-linux-arm64.dbxp",
+              "sha256": "419672a46db81f9619287e0a91bc49e93dbfdef22ae9228c2ed8e070de85e6d0",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4595334
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.3.3/io.dbx.xxljob-console-0.3.3-linux-x64.dbxp",
+              "sha256": "cf497f1f47cbcf1a2cc31ea1dd9efec4f1bbfa0a5d83aa8f1fec4393de96a729",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4888139
+            },
+            {
+              "target": "windows-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.3.3/io.dbx.xxljob-console-0.3.3-windows-arm64.dbxp",
+              "sha256": "1d452b6ac9f3a9e2551ba803790865cb9bef268a6c24ed134ba91ce81bded7e4",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4599224
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.xxljob-console/0.3.3/io.dbx.xxljob-console-0.3.3-windows-x64.dbxp",
+              "sha256": "4efd5aafdabdeace54cf717e5f70d24223b097270f0988fccd10b8ea240966b5",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4915705
+            }
+          ]
+        },
         {
           "version": "0.3.2",
           "releasedAt": "2026-09-20T15:51:44.661Z",
@@ -5799,7 +6540,7 @@
       "description": "Analyze DBX Estimated Plans with structured parsing, plan-tree visualization, deterministic findings, and hotspot detection.",
       "publisher": "0verme",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.github.0verme.plan-detective/0.6.7/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/io.github.0verme.plan-detective/0.7.1/icon.svg",
       "tags": [
         "database",
         "sql",
@@ -5812,8 +6553,36 @@
       "source": "https://github.com/0verme/dbx-plugin-plan-detective/tree/v0.5.4",
       "homepage": "https://github.com/0verme/dbx-plugin-plan-detective",
       "license": "Apache-2.0",
-      "latestVersion": "0.6.7",
+      "latestVersion": "0.7.1",
       "versions": [
+        {
+          "version": "0.7.1",
+          "releasedAt": "2026-10-15T01:50:09.704Z",
+          "releaseNotes": "",
+          "artifacts": [
+            {
+              "target": "universal",
+              "url": "https://dl.dbxio.com/plugins/io.github.0verme.plan-detective/0.7.1/io.github.0verme.plan-detective-0.7.1-universal.dbxp",
+              "sha256": "48fd3fb511c2c5288d38ab4876e88e695988431c8866ed43089d411cdcab2991",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 108005
+            }
+          ]
+        },
+        {
+          "version": "0.7.0",
+          "releasedAt": "2026-10-14T06:22:47.266Z",
+          "releaseNotes": "",
+          "artifacts": [
+            {
+              "target": "universal",
+              "url": "https://dl.dbxio.com/plugins/io.github.0verme.plan-detective/0.7.0/io.github.0verme.plan-detective-0.7.0-universal.dbxp",
+              "sha256": "ef5803c22a132c7fe76cba7da08957749980089ed0c2c217d17b9d7be2577f08",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 889420
+            }
+          ]
+        },
         {
           "version": "0.6.7",
           "releasedAt": "2026-09-26T01:20:57.541Z",
@@ -6026,19 +6795,106 @@
       "description": "An all-in-one, privacy-focused developer toolbox for data conversion, encoding and decoding, formatting, text and image processing, generators, cryptographic tools, and an encrypted key vault—all processed locally.",
       "publisher": "aili0617",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.2/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.4/icon.svg",
       "tags": [
         "developer-tools",
         "utilities",
         "encoding",
         "cryptography"
       ],
-      "permissions": [],
+      "permissions": [
+        "host.binary",
+        "host.events"
+      ],
       "source": "https://github.com/aiLi0617/dbx-plugin-toolbox",
       "homepage": "https://github.com/aiLi0617/dbx-plugin-toolbox",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.2",
+      "latestVersion": "0.1.4",
       "versions": [
+        {
+          "version": "0.1.4",
+          "releasedAt": "2026-10-13T05:13:57.024Z",
+          "releaseNotes": "0.1.4：空闲端口推荐改为独立探测，一次返回 5 个经系统绑定验证的 TCP/UDP 候选；修复 OCR 模型在发布包中的拉取与完整性校验；优化范围滑块进度、焦点状态及多处主题阴影样式。0.1.4: Makes free-port recommendations independent and returns five TCP/UDP candidates verified by system binding; fixes OCR model hydration and validation during release packaging; improves range-slider progress, focus states, and theme-aware shadow styling.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.4/io.github.aili0617.toolbox-0.1.4-darwin-arm64.dbxp",
+              "sha256": "a5421ecce7f08b255fd053cbec8711054125adbbe592a0094b7771229a91246e",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 100029314
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.4/io.github.aili0617.toolbox-0.1.4-darwin-x64.dbxp",
+              "sha256": "5d6087c36340c3f0eb72cfb2f5048f1e97149c9e6b15e72d40254585d621d3e2",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 99535403
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.4/io.github.aili0617.toolbox-0.1.4-linux-arm64.dbxp",
+              "sha256": "85216b774c612e93fa63059e53a7e60b7e73a49bdba0145b79585b0cf7a59147",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 100262899
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.4/io.github.aili0617.toolbox-0.1.4-linux-x64.dbxp",
+              "sha256": "261d3921eb33ab9f237e946c040d356967d95737a0c1589c321f5fd471c1fb3f",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 100672584
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.4/io.github.aili0617.toolbox-0.1.4-windows-x64.dbxp",
+              "sha256": "c9d712bace4fbd5a36d8f9e9c918291a1716ed34908a26fc3f5f35ea90b2fa27",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 99726935
+            }
+          ]
+        },
+        {
+          "version": "0.1.3",
+          "releasedAt": "2026-10-13T00:57:15.201Z",
+          "releaseNotes": "0.1.3：工具目录扩展到 64 个入口，新增离线原生 OCR、图片拼接与 GIF 生成、图表/假数据/开发辅助工具，并增强颜色对比度、JSON、文本、网络与密钥生成能力。0.1.3: Expands the catalog to 64 entries with native offline OCR, image stitching and GIF creation, chart/fake-data/developer utilities, plus improvements to color contrast, JSON, text, networking, and key generation.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.3/io.github.aili0617.toolbox-0.1.3-darwin-arm64.dbxp",
+              "sha256": "b2b3cac293546413c4c9d24e7e5bf527c5d40c84d89093d53900accaa352ce0c",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4576320
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.3/io.github.aili0617.toolbox-0.1.3-darwin-x64.dbxp",
+              "sha256": "55d2d4600907e5a039ea0488dd9f7adaba61d37ef90748ac59562eedca135163",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4901144
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.3/io.github.aili0617.toolbox-0.1.3-linux-arm64.dbxp",
+              "sha256": "117fc750f5a204eef3284d927c990664d61e430cbbb03f0b7310bd8f1ad39c5b",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5635523
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.3/io.github.aili0617.toolbox-0.1.3-linux-x64.dbxp",
+              "sha256": "cc8c2fa6b25b6d9295e32bd30d623bd4d1748bbc48020980e6ec1355ddc96336",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 6050210
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.aili0617.toolbox/0.1.3/io.github.aili0617.toolbox-0.1.3-windows-x64.dbxp",
+              "sha256": "1537d7a2349d23708b57d5fb9fe3b3eea1ff6d854b5c871ac759882648489d7d",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5092966
+            }
+          ]
+        },
         {
           "version": "0.1.2",
           "releasedAt": "2026-10-10T06:08:09.067Z",
@@ -8507,6 +9363,46 @@
         "en": {
           "name": "Wait Work",
           "description": "Work a while, rest a while. Read local TXT, EPUB and MOBI books, or stream online books from custom sources — with chapter outlines, reading settings, autosave, and body text that folds away automatically when you switch pages."
+        }
+      }
+    },
+    {
+      "id": "mybatis-sql-fill",
+      "name": "MyBatis SQL Fill",
+      "description": "Paste MyBatis DEBUG logs and fill parameters back into SQL to get executable SQL.",
+      "publisher": "sunsugary",
+      "verified": false,
+      "icon": "https://dl.dbxio.com/plugins/mybatis-sql-fill/0.1.2/icon.svg",
+      "tags": [
+        "mybatis",
+        "sql",
+        "log"
+      ],
+      "permissions": [],
+      "source": "https://github.com/sunsugary/dbx-plugin-mybatis-sql-fill/tree/v0.1.2",
+      "homepage": "https://github.com/sunsugary/dbx-plugin-mybatis-sql-fill",
+      "license": "Apache-2.0",
+      "latestVersion": "0.1.2",
+      "versions": [
+        {
+          "version": "0.1.2",
+          "releasedAt": "2026-10-14T06:31:22.303Z",
+          "releaseNotes": "Initial release: parse MyBatis logs (arrows optional), type-aware parameter fill with ANSI DATE/TIMESTAMP literals, quote-aware substitution, one-click copy.",
+          "artifacts": [
+            {
+              "target": "universal",
+              "url": "https://dl.dbxio.com/plugins/mybatis-sql-fill/0.1.2/mybatis-sql-fill-0.1.2-universal.dbxp",
+              "sha256": "dc734089660c68fa90870b00bad98c6d1c0f8812996823d2b67ccc469402cc3a",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 9973
+            }
+          ]
+        }
+      ],
+      "localizations": {
+        "zh-CN": {
+          "name": "MyBatis SQL 还原",
+          "description": "粘贴 MyBatis 日志，自动把参数回填到 SQL 中，得到可直接执行的 SQL。"
         }
       }
     },
