@@ -177,6 +177,11 @@
       "autoUpdate": true
     },
     {
+      "repository": "yuwenGueen/dbx-doudb",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
       "repository": "IceFoxs/dbx-plugin-aes-tools",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true

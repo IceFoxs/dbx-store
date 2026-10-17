@@ -2074,6 +2074,47 @@
       }
     },
     {
+      "id": "dev.doudb.suite",
+      "name": "DouDB",
+      "description": "Dou Dizhu card game with 3- and 4-player modes, computer opponents, LAN rooms, and switchable classic/database themes.",
+      "publisher": "doudb",
+      "verified": false,
+      "icon": "https://dl.dbxio.com/plugins/dev.doudb.suite/0.1.4/icon.svg",
+      "tags": [
+        "games",
+        "cards",
+        "dou-dizhu",
+        "lan"
+      ],
+      "permissions": [],
+      "source": "https://github.com/yuwenGueen/dbx-doudb/tree/v0.1.4",
+      "homepage": "https://github.com/yuwenGueen/dbx-doudb",
+      "license": "Apache-2.0",
+      "latestVersion": "0.1.4",
+      "versions": [
+        {
+          "version": "0.1.4",
+          "releasedAt": "2026-10-17T05:24:35.952Z",
+          "releaseNotes": "Initial store submission: three/four-player Dou Dizhu, local AI and LAN rooms, modular skins, audio/effects, and responsive DBX panel layout. macOS Apple Silicon; Chinese UI.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/dev.doudb.suite/0.1.4/dev.doudb.suite-0.1.4-darwin-arm64.dbxp",
+              "sha256": "7a58a75aa7795fe6253e7e7b1df59f4f099e917a909a48f7da9d2a6c9dc2b1cb",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4980422
+            }
+          ]
+        }
+      ],
+      "localizations": {
+        "zh-CN": {
+          "name": "DouDB · 斗地主",
+          "description": "三人/四人斗地主，支持电脑补位、局域网对战、经典与数据库主题切换，以及独立皮肤、音效和背景音乐。"
+        }
+      }
+    },
+    {
       "id": "io.dbx.clipboard",
       "name": "Clipboard History",
       "description": "Browse, search, and reuse local clipboard history (text, images, and file lists).",
@@ -5134,10 +5175,10 @@
     {
       "id": "io.dbx.lolping.lite",
       "name": "lolPing Lite",
-      "description": "Native desktop ping and emote wheels with low memory use, local sound, offline packs and DBX-integrated settings.",
+      "description": "Send LOL pings and emotes over your desktop and other app windows, adapted from darrenprx/lolPing.",
       "publisher": "ezreal-byte",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.2.1/icon.png",
+      "icon": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.2.2/icon.png",
       "tags": [
         "pings",
         "emotes",
@@ -5148,11 +5189,32 @@
         "host.events",
         "host.binary"
       ],
-      "source": "https://github.com/Ezreal-byte/dbx-lolping-plugin/tree/v0.2.1",
+      "source": "https://github.com/Ezreal-byte/dbx-lolping-plugin/tree/v0.2.2",
       "homepage": "https://github.com/Ezreal-byte/dbx-lolping-plugin",
       "license": "MIT",
-      "latestVersion": "0.2.1",
+      "latestVersion": "0.2.2",
       "versions": [
+        {
+          "version": "0.2.2",
+          "releasedAt": "2026-10-17T05:30:35.661Z",
+          "releaseNotes": "Fix a Windows overlay clipping bug: triggering a wheel at a screen edge could leave subsequent wheels partially visible or missing elsewhere. Update changed native window geometry before uploading the frame so the previous clipped region is not reused. Cursor position, wheel anchor, gesture thresholds and direction mapping remain unchanged. Existing settings and imported assets remain compatible. Windows desktop regression covers all four edges and corners, subsequent centered wheels and idle wake. macOS uses a separate surface path; hardware acceptance remains required.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.2.2/io.dbx.lolping.lite-0.2.2-darwin-arm64.dbxp",
+              "sha256": "32158b1aebc8cb7b6af97a8dbfe1a5346b1348b662c55bf5cd43595701f6caf2",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 18761298
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.2.2/io.dbx.lolping.lite-0.2.2-windows-x64.dbxp",
+              "sha256": "7ff1a3b93bc9123103e4fbbf615c538cdb95694f5dad0189926d4fa58fbcb8cf",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 18888587
+            }
+          ]
+        },
         {
           "version": "0.2.1",
           "releasedAt": "2026-10-17T02:12:38.796Z",
@@ -5199,7 +5261,7 @@
       "localizations": {
         "zh-CN": {
           "name": "lolPing 轻量版",
-          "description": "低内存原生桌面信号与表情轮盘，支持本地音效、离线扩展包和 DBX 内设置。"
+          "description": "在桌面及其他软件窗口上打 LOL 信号和表情，基于 darrenprx/lolPing 改造。"
         }
       }
     },
