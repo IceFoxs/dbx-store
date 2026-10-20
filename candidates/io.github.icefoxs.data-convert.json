@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "io.github.icefoxs.data-convert",
   "publisher": "icefoxs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "name": "data-convert",
   "description": "A DBX plugin providing seamless conversion among JSON, YAML, XML, and Properties formats. Built as a frontend-only universal package.",
-  "icon": "https://raw.githubusercontent.com/IceFoxs/dbx-plugin-data-convert/v0.1.1/assets/plugin.svg",
+  "icon": "https://raw.githubusercontent.com/IceFoxs/dbx-plugin-data-convert/v0.1.2/assets/plugin.svg",
   "tags": [
     "data-convert",
     "json",
@@ -25,9 +25,9 @@
   "targets": [
     {
       "target": "universal",
-      "url": "https://github.com/IceFoxs/dbx-plugin-data-convert/releases/download/v0.1.1/io.github.icefoxs.data-convert-0.1.1-universal.dbxp",
-      "sha256": "d7d3088595706870609a98b82f4d77237a569ae80d3692ffbc29987686e78f24",
-      "size": 154050
+      "url": "https://github.com/IceFoxs/dbx-plugin-data-convert/releases/download/v0.1.2/io.github.icefoxs.data-convert-0.1.2-universal.dbxp",
+      "sha256": "6b301636245ed64124ef4fcbe23848b31729da414cda9ed2b5882005bc1efa8b",
+      "size": 167252
     }
   ],
   "localizations": {
